@@ -27,7 +27,7 @@ pipeline = transformers.pipeline(
     model=model_id,
     model_kwargs={"torch_dtype": torch.bfloat16},
     device_map="auto",
-    token = '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',
+    token = 'YOUR API KEY',
     pad_token_id = 128009
 )
 
